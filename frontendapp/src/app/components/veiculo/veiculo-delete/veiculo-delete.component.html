@@ -1,0 +1,46 @@
+<div>
+    <mat-card>
+        <div>
+            <h2>Deseja realmente excluir o veículo ?</h2>
+        </div>
+        <div>
+            <form>
+                <mat-form-field>
+                    <input matInput placeholder="Modelo" 
+                        [value]="veiculo.modelo" name="modelo" disabled>
+                </mat-form-field>
+                <mat-form-field>
+                    <input matInput placeholder="Marca" 
+                    [value]="veiculo.marca" name="marca" disabled>
+                </mat-form-field>
+                <mat-form-field>
+                    <input matInput placeholder="Ano" 
+                    [value]="veiculo.ano" name="ano" disabled>
+                </mat-form-field>
+                <mat-form-field>
+                    <input matInput placeholder="Placa" 
+                    [value]="veiculo.placa" name="placa" disabled>
+                </mat-form-field>
+                <mat-form-field>
+                    <input matInput placeholder="Chassi" 
+                    [value]="veiculo.chassi" name="chassi" disabled>
+                </mat-form-field>
+                <mat-form-field>
+                    <input matInput placeholder="Renavam" 
+                    [value]="veiculo.renavam" name="renavam" disabled>
+                </mat-form-field>
+            </form>
+        </div>
+        <div>
+            <button mat-raised-button (click)="deleteVeiculo()" color="warn">
+                Excluir
+            </button>
+            
+            <button mat-raised-button (click)="cancel()" >
+                Cancelar
+            </button> 
+        </div>
+    </mat-card>
+</div>
+
+

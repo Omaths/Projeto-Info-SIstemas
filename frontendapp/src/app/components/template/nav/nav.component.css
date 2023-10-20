@@ -1,0 +1,14 @@
+.sidnav{
+    background-color:#f7d1a9;
+    width: 200;
+}
+
+.sidnav i {
+    padding-right: 10px;
+}
+
+.content {
+    padding: 16px;
+    background: #fff;
+}
+

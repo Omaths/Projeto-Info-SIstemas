@@ -1,0 +1,40 @@
+{
+  "veiculos": [
+    {
+      "id": 1,
+      "placa": "HWR2584",
+      "chassi": 123456,
+      "renavam": "GHR56DF32A",
+      "modelo": "Fox",
+      "marca": "Volkswagen",
+      "ano": "2010"
+    },
+    {
+      "id": 2,
+      "placa": "GHJ5412",
+      "chassi": 456789,
+      "renavam": "AER56YV32A",
+      "modelo": "Jetta",
+      "marca": "Volkswagen",
+      "ano": 2023
+    },
+    {
+      "id": 3,
+      "placa": "LOV2694",
+      "chassi": 147258,
+      "renavam": "BTW56XC32A",
+      "modelo": "Nivus",
+      "marca": "Volkswagen",
+      "ano": 2023
+    },
+    {
+      "placa": "CVB2541",
+      "chassi": "369852",
+      "renavam": "UIR74BV34Z",
+      "modelo": "T-Cross",
+      "marca": "Volkswagen",
+      "ano": "2023",
+      "id": 4
+    }
+  ]
+}

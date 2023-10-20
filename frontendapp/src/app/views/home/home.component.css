@@ -1,0 +1,14 @@
+.home .title {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-left: 20px;
+}
+
+.home .subtitle {
+    font-size: 1rem;
+}
+div{
+    margin-top: 20px;
+    margin-left: 20px;
+}
